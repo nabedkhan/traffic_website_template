@@ -1,0 +1,333 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;700&display=swap');
+body{
+    font-family: 'Khula', sans-serif;
+    color: #999999;
+}
+h1,h2,h3, h4, h5, h6{
+    color: #373737;
+}
+/*Header Area section*/
+.Header-Area{
+    padding: 15px 0px;
+}
+.mainmenu{
+    margin-top: 10px;
+}
+.mainmenu ul{
+    margin-bottom: 0px;
+}
+.mainmenu ul li{
+    margin-right: 0px !important;
+    padding: 0px 15px;
+}
+.mainmenu ul li a{
+    text-decoration: none;
+    color: #888888;
+    font-size: 15px;
+    transition: all ease 0.3s;
+}
+.mainmenu ul li a:hover{
+    color: #ef476f;
+}
+.cstm-btn{
+    background-color: #ef476f;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 20px;
+}
+/*Hero Area section*/
+.Hero-Area{
+    padding: 100px 0px;
+}
+.hero-text{
+    margin-top: 25px;
+}
+.hero-text h1{
+    margin-bottom: 15px;
+}
+.hero-text p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.hero-form input{
+    border: 1px solid #efefef;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #373737;
+}
+/*Service-Area Section*/
+.service{
+    padding: 100px 0px;
+}
+.com-heading p{
+    margin-bottom: 100px;
+}
+.single-service{
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    padding: 30px 20px;
+    transition: all ease 0.3s;
+    margin-bottom: 40px;
+}
+.single-service h2{
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.single-service p{
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.service-btn a{
+    color: #373737;
+    text-decoration: none;
+}
+.service-btn .zmdi{
+    padding-left: 5px;
+}
+.single-service:hover{
+    border: 1px solid #ef476f;
+}
+.single-service:hover h2, .single-service:hover .service-btn a{
+    color: #ef476f;
+}
+.trans-row{
+    margin-top: 100px;
+}
+.Transparency{
+    margin-top: 55px;
+}
+.Transparency h2{
+    font-size: 28px;
+    line-height: 40px;
+}
+.Transparency p{
+    font-size: 15px;
+    line-height: 25px;
+    margin: 25px 0px;
+}
+/*Case Study Area*/
+.case-study{
+    background-color: #fbfbfb;
+    padding: 100px 0px;
+}
+.bg-1{background-image: url(../images/case-1.jpg);}
+.bg-2{background-image: url(../images/case-2.jpg);}
+.bg-3{background-image: url(../images/case-3.jpg);}
+.bg-4{background-image: url(../images/case-4.jpg);}
+.single-slider-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all ease 0.4;
+    width: 370px;
+    height: auto;
+    margin-right: 20px;
+}
+.single-slider-item:hover .slider-hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.slider-hover{
+    text-align: center;
+    background-color: #ef476f;
+    padding: 20px;
+    opacity: 0;
+}
+.slider-hover h2{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.slider-hover h4{
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.slider-hover p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.slider-btn{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.slider-btn a{
+    line-height: 35px;
+    color: #373737;
+}
+/*Testimonial Area*/
+.testimonial{
+    padding: 100px 0px;
+}
+.testimonial-slider{}
+.single-item h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+.single-item img {
+    display: inline-block !important;
+}
+.single-item h4 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.single-item p {
+    font-size: 15px;
+}
+.testimonial-slider .slick-dots button {
+
+}
+.testimonial-slider .slick-dots li{
+    list-style: none;
+}
+.testimonial-slider .slick-dots li {
+    background-color: #e2e2e2;
+    display: inline-block;
+    margin: 3px;
+    list-style: none;
+    font-size: 0px;
+}
+.testimonial-slider .slick-dots {
+    text-align: center;
+    padding: 0px;
+}
+.testimonial-slider li.slick-active button {
+    background-color: #ef476f !important;
+}
+.testimonial-slider .slick-dots button {
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    width: 15px;
+    height: 3px;
+}
+/*Ready Area*/
+.ready{
+    background-color: #f8f8f8;
+    padding: 50px 0px;
+}
+.ready h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+/*Pricing table Area*/
+.pricing-table{
+    padding: 100px 0px;
+}
+.single-table{
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    padding: 30px 40px;
+    transition: all 0.5s ease;
+}
+.single-table:hover{
+    border: 1px solid #ef476f;
+    cursor: pointer;
+}
+.single-table:hover hr{
+    border: 1px solid #ef476f;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.single-table h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.single-table h1{
+    font-size: 50px;
+    color: #ef476f;
+    margin-bottom: 0px;
+}
+.single-table ul{
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.single-table li{
+    list-style: none;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.single-table hr{
+    border: 1px solid #f1f1f1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*Client logo Area*/
+.clients-logo {
+    margin-top: 100px;
+}
+/*Footer Area*/
+.top-footer{
+    background-color: #fdfdfd;
+    padding: 100px 0px;
+}
+.footer-menu h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer-menu ul {
+    padding: 0px;
+}
+.footer-menu ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footer-menu ul li a {
+    color: #999999;
+    font-size: 15px;
+    text-decoration: none;
+}
+.newsletter h2 {
+    font-size: 20px;
+}
+.newsletter input {
+    border: none;
+    background-color: #f6f6f6;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px 0px 0px 3px;
+}
+.newsletter button {
+    background-color: #ef476f;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+}
+.social-icon h2 {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+.single-icon {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.single-icon a {
+    color: #999999;
+    font-weight: 300;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.single-icon a i {
+    color: #373737;
+    padding-right: 5px;
+}
+.bottom-footer{
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+.bottom-footer p{
+    margin-bottom: 0px;
+}
+/*Footer Area*/
